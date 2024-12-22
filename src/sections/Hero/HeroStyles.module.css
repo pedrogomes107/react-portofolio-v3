@@ -59,7 +59,6 @@
 
 .colorMode {
   position: absolute;
-  right: 0;
   width: 25px;
 }
 
@@ -69,6 +68,7 @@
 
 .description {
   max-width: 24ch;
+  align-self: center;
 }
 
 .info {
