@@ -33,8 +33,9 @@
 
 @media (width >= 800px) {
   .projectsContainer {
-    flex-direction: row;
-    flex-wrap: nowrap;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-rows: repeat(1, auto);
     justify-content: space-evenly;
     padding: 0 30px;
     max-width: 40ch;
