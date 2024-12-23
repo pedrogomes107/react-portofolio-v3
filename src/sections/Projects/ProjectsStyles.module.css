@@ -30,3 +30,13 @@
   gap: 30px;
   max-width: 24ch;
 }
+
+@media (width >= 800px) {
+  .projectsContainer {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    padding: 0 30px;
+    max-width: 40ch;
+  }
+}

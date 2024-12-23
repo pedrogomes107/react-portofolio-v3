@@ -4,8 +4,8 @@
   justify-content: center;
   gap: 20px;
   text-align: center;
-  height: 100dvh;
   min-height: 500px;
+  margin-top: 1em;
 
   .hero {
     max-width: 200px;
@@ -33,6 +33,7 @@
   button {
     background-color: var(--btn-color);
     color: var(--btn-text-color);
+    margin-top: 1em;
     border: none;
     border-radius: 20px;
     width: 126px;
@@ -67,12 +68,41 @@
 }
 
 .description {
-  max-width: 24ch;
+  max-width: 40ch;
   align-self: center;
+  margin: 20px;
 }
 
 .info {
   display: flex;
   flex-direction: column;
   gap: 20px;
+}
+
+@media (width >= 800px) {
+  .container {
+    .hero {
+      max-width: 450px;
+      width: 450px;
+    }
+    .intro {
+      display: flex;
+      flex-direction: row-reverse;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+
+  .colorMode {
+    align-self: flex-start;
+  }
+
+  .info {
+    margin-left: auto;
+  }
+
+  .description {
+    max-width: 60ch;
+    align-self: center;
+  }
 }
