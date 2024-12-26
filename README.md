@@ -1,8 +1,10 @@
 # React Portofolio v3
 
-Build and deploy a responsive React Portfolio Website with a light & dark mode, a cartoon hero image of us generated with AI.
+Build and deploy a responsive React Portfolio Website with a light & dark mode, a cartoon hero image of me generated with AI.
 
-Tutorial: https://www.youtube.com/watch?v=ZpIel9cv4Jk
+## Demo:
+
+https://pedrogomesportofolio.netlify.app
 
 ## Install npm Packages:
 
@@ -18,6 +20,6 @@ Tutorial: https://www.youtube.com/watch?v=ZpIel9cv4Jk
 
 #### `npm run preview`
 
-## Demo:
+## Tutorial: 
 
-#### https://pedrogomesportofolio.netlify.app
+https://www.youtube.com/watch?v=ZpIel9cv4Jk
