@@ -1,6 +1,6 @@
 # React Portofolio v3
 
-Build and deploy a responsive React Portfolio Website with a light & dark mode, a cartoon hero image of me generated with AI.
+Responsive React Portfolio Website with a light & dark mode, a cartoon hero image of me generated with AI.
 
 ## Demo:
 
