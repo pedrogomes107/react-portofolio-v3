@@ -11,7 +11,7 @@ function Projects() {
       <div className={styles.projectsContainer}>
         <ProjectCard
           src={twitterClone}
-          link="https://mern-clone-twitter.onrender.com/"
+          link="https://mern-clone-twitter.vercel.app/"
           h3="Twitter Clone"
           p="App with the most basic features of Twitter, like posting tweets, following users, and liking tweets."
         />
