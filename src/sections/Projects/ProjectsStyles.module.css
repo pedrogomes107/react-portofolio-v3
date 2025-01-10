@@ -35,7 +35,7 @@
   .projectsContainer {
     display: grid;
     grid-auto-flow: column;
-    grid-template-rows: repeat(1, auto);
+    grid-template-rows: repeat(2, auto);
     justify-content: space-evenly;
     padding: 0 30px;
     max-width: 40ch;
